@@ -1,0 +1,27 @@
+{
+  "name": "universitaria-stereo",
+  "version": "1.0.0",
+  "description": "pagina web universitaria stereo de pereira",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiaguf/universitaria-stereo.git"
+  },
+  "keywords": [
+    "utp",
+    "universitaria-stereo",
+    "emisora"
+  ],
+  "author": "Santiago Bernal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiaguf/universitaria-stereo/issues"
+  },
+  "homepage": "https://github.com/santiaguf/universitaria-stereo#readme",
+  "devDependencies": {
+    "localtunnel": "^2.0.2"
+  }
+}

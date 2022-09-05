@@ -8,6 +8,8 @@
     <meta name="theme-color" content="#2a78b4"/>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <title>Universitaria Stereo</title>
+    <link rel="apple-touch-icon" href="img/ios/192.png">
+    <link rel='manifest' href='manifest.json'>
 </head>
 <body>
     <header>
@@ -32,5 +34,15 @@
             </footer>
         </div>
     </div>
+    <script defer type="text/javascript">
+        if ("serviceWorker" in navigator) {
+          window.addEventListener("load", function() {
+            navigator.serviceWorker
+            .register("/serviceWorker.js")
+            .then(res => console.log("service worker registered"))
+            .catch(err => console.log("service worker not registered", err))
+          })
+        }
+      </script>
 </body>
 </html>

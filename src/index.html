@@ -22,7 +22,7 @@
             </div>
             <div id="player">
                 <audio controls>
-                    <source src="http://streaming.utp.edu.co:8000/;stream.mp3" type="audio/mpeg">
+                    <source src="https://c79-prd-s14-02.utp.edu.co/stream/stream.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
             </div>
@@ -36,13 +36,13 @@
     </div>
     <script defer type="text/javascript">
         if ("serviceWorker" in navigator) {
-          window.addEventListener("load", function() {
-            navigator.serviceWorker
-            .register("/serviceWorker.js")
-            .then(res => console.log("service worker registered"))
-            .catch(err => console.log("service worker not registered", err))
-          })
+            window.addEventListener("load", function() {
+                navigator.serviceWorker
+                .register("/serviceWorker.js")
+                .then(res => console.log("service worker registered"))
+                .catch(err => console.log("service worker not registered", err))
+            })
         }
-      </script>
+    </script>
 </body>
 </html>

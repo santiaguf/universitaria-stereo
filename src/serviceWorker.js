@@ -4,10 +4,10 @@
 /* eslint-disable no-restricted-globals */
 const universitaria = 'universitaria-stereo-v1';
 const assets = [
-  '/',
-  'index.html',
-  'img/favicon.png',
-  'img/emisora_universitaria_estereo.png'
+  './',
+  './index.html',
+  './img/favicon.png',
+  './img/emisora_universitaria_estereo.png'
 ]
 
 // eslint-disable-next-line arrow-parens

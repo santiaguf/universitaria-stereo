@@ -32,31 +32,36 @@
             height: auto;
         }
 
+        footer{
+            font-size: 0.92em;
+            text-align: center;
+        }
+
         /*medidas para ser usadas minimo desde 768 en adelante*/
         @media (min-width: 768px) {
 
-        #info {
-            display: flex;
-            flex-direction: row;
-}
-            align-items: flex-start;
-        }
+            #info {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+            }
 
-        #left-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0px;
-            width: 40%;
-            
-    
-        }
+            #left-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+                width: 40%;
+                
+        
+            }
 
-        #right-container {
-            padding: 1%;
-            font-size: 1.2em;
-            width: 70%;
-            
+            #right-container {
+                padding: 1%;
+                text-align:justify;
+                font-size: 1.2em;
+                width: 70%;
+            }
         }
 
         @media (max-width: 500px) {
@@ -72,7 +77,7 @@
                 font-size: 1em;
             }
         }
-           
+
     </style>
 </head>
 <body>
@@ -87,21 +92,20 @@
                 </div>
                 <div id="player">
                     <audio controls>
-                        <source src="https://c79-prd-s14-02.utp.edu.co/stream/stream.mp3" type="audio/mpeg">
+                        <source src="https://c79-prd-s14-02.utp.edu.co/stream/" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
             </div>
-           
+    
             <div id="right-container">
-                <p><a href="https://universitariaestereo.utp.edu.co/" target="_blank">Universitaria Stereo</a> es una emisora de radio de la Universidad Tecnológica de Pereira, que transmite desde el año 1996, con una programación variada, que incluye música, noticias, deportes, entretenimiento, cultura, y mucho más.</p>
+                <p>Universitaria<a href="https://universitariaestereo.utp.edu.co/" target="_blank">Stereo</a>es una emisora de radio de la Universidad Tecnológica de Pereira, que transmite desde el año 1996, con una programación variada, que incluye música, noticias, deportes, entretenimiento, cultura, y mucho más.</p>
             <p>La emisora se puede sintonizar desde Pereira y sus alrededores en la frecuencia 88.2 FM</p>
-
-            <footer>
-                <p>Página creada con fines autodidactas y de aprendizaje, nota: todo el contenido audiovisual (audio e imágenes) son propiedad de la Universidad Tecnológica de Pereira, <a href="https://github.com/santiaguf/universitaria-stereo" target="_blank">código fuente</a></p>
-            </footer>
             </div>
         </div>
+        <footer>
+            <p><strong>Página creada con fines autodidactas y de aprendizaje, nota: todo el contenido audiovisual (audio e imágenes) son propiedad de la Universidad Tecnológica de Pereira, <a href="https://github.com/santiaguf/universitaria-stereo" target="_blank">código fuente</a></strong></p>
+            </footer>
     </div>
     <script defer type="text/javascript">
         if ("serviceWorker" in navigator) {

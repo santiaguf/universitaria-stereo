@@ -6,8 +6,10 @@ const universitaria = 'universitaria-stereo-v1';
 const assets = [
   './',
   './index.html',
-  './img/favicon.png',
-  './img/emisora_universitaria_estereo.png'
+  './img/favicon.ico',
+  './img/logo-large.png',
+  './img/logo-medium.png',
+  './img/logo-small.png'
 ]
 
 // eslint-disable-next-line arrow-parens
